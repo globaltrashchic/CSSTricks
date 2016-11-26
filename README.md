@@ -101,7 +101,7 @@ img {
     
 }
 
-#Our first topic:
+#Our second topic:
 
 ##CSS Transitions
 
