@@ -87,7 +87,7 @@ To just center the text inside an element, use text-align: center;
     
 }
 
-##CCenter an Image
+##Center an Image
 
 To center an image, use margin: auto; and make it into a block element:
 
@@ -98,6 +98,49 @@ img {
     display: block;
     margin: auto;
     width: 40%;
+    
+}
+
+#Our first topic:
+
+##CSS Transitions
+
+*CSS3 transitions allows you to change property values smoothly (from one value to another), over a given duration.*
+
+*An example of this is hovering your mouse over a button and the button enlarges and changes colour.*
+
+####How to Use CSS3 Transitions?
+
+To create a transition effect, you must specify two things:
+
+*the CSS property you want to add an effect to
+*the duration of the effect
+
+**Note: If the duration part is not specified, the transition will have no effect, because the default value is 0.**
+
+The following example shows a 100px * 100px red <div> element. The <div> element has also specified a transition effect for the width property, with a duration of 2 seconds:
+
+####Example
+
+div {
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    
+}
+
+######The transition effect will start when the specified CSS property (width) changes value.
+
+######Now, let us specify a new value for the width property when a user mouses over the <div> element:
+
+####Example
+
+div:hover {
+
+    width: 300px;
     
 }
 
