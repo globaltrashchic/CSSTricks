@@ -61,3 +61,44 @@ The element will then take up the specified width, and the remaining space will 
     
 }
 
+##Center Align Text
+
+To just center the text inside an element, use text-align: center;
+
+####Example
+
+.center {
+    
+    text-align: center;
+    border: 3px solid green;
+    
+}
+
+##Center Align Text
+
+To just center the text inside an element, use text-align: center;
+
+####Example
+
+.center {
+
+    text-align: center;
+    border: 3px solid green;
+    
+}
+
+##CCenter an Image
+
+To center an image, use margin: auto; and make it into a block element:
+
+####Example
+
+img {
+    
+    display: block;
+    margin: auto;
+    width: 40%;
+    
+}
+
+
