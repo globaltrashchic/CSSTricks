@@ -10,38 +10,54 @@
 The first option works when you know the width of the absolutely positioned element. As such it’s not very flexible or responsive.
 
 somelement {
-width: 200px;
 
-position: absolute;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px
 
-left: 50%;
-
-margin-left: -100px
 }
 
 ####using translate :
 The second option works when you don’t know the width of the absolutely positioned element. Excellent for responsiveness but is CSS3…older browsers may have an issue.
 
 somelement {
-position: absolute;
 
-left: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 
--webkit-transform: translateX(-50%);
-
-transform: translateX(-50%)
 }
 
 ####This is also an alternative :
 The third option works when you don’t know the width of the absolutely positioned element but makes it 100% wide of it’s parent which might not fit the design. If you do know the width, you can use the third option as well and it will center.
 
 somelement {
-position: absolute;
 
-left: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto
 
-right: 0;
+}
 
-margin: auto
+##Center Align Elements
+
+To horizontally center a block element (like <div>), use margin: auto;
+
+Setting the width of the element will prevent it from stretching out to the edges of its container.
+
+The element will then take up the specified width, and the remaining space will be split equally between the two margins:
+
+####Example
+
+.center { 
+
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    
 }
 
