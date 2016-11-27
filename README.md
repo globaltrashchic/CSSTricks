@@ -145,3 +145,49 @@ div:hover {
 }
 
 
+####Change Several Property Values
+
+The following example adds a transition effect for both the width and height property, with a duration of 2 seconds for the width and 4 seconds for the height:
+
+####Example
+
+div {
+    -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+}
+
+####Specify the Speed Curve of the Transition
+
+The transition-timing-function property specifies the speed curve of the transition effect.
+
+The transition-timing-function property can have the following values:
+
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+The following example shows the some of the different speed curves that can be used:
+
+####Example
+
+div1 {transition-timing-function: linear;}
+div2 {transition-timing-function: ease;}
+div3 {transition-timing-function: ease-in;}
+div4 {transition-timing-function: ease-out;}
+div5 {transition-timing-function: ease-in-out;}
+
+####Delay the Transition Effect
+
+The transition-delay property specifies a delay (in seconds) for the transition effect.
+
+The following example has a 1 second delay before starting:
+
+####Example
+
+div {
+    -webkit-transition-delay: 1s; /* Safari */
+    transition-delay: 1s;
+}
+
