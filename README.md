@@ -170,14 +170,6 @@ ease-in-out - specifies a transition effect with a slow start and end
 cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
 The following example shows the some of the different speed curves that can be used:
 
-####Example
-
-div1 {transition-timing-function: linear;}
-div2 {transition-timing-function: ease;}
-div3 {transition-timing-function: ease-in;}
-div4 {transition-timing-function: ease-out;}
-div5 {transition-timing-function: ease-in-out;}
-
 ####Delay the Transition Effect
 
 The transition-delay property specifies a delay (in seconds) for the transition effect.
