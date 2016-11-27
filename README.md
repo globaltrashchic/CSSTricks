@@ -101,7 +101,7 @@ img {
     
 }
 
-# [Centering Things: Example Website](https://www.w3.org/Style/Examples/007/center.en.html)
+# [Centering Things](https://www.w3.org/Style/Examples/007/center.en.html)
 
 #Our second topic:
 
@@ -185,3 +185,4 @@ div {
     transition-delay: 1s;
 }
 
+# [How to use CSS transition](http://www.w3schools.com/css/css3_transitions.asp)
