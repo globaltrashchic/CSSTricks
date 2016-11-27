@@ -101,6 +101,8 @@ img {
     
 }
 
+# [Centering Things: Example Website](https://www.w3.org/Style/Examples/007/center.en.html)
+
 #Our second topic:
 
 ##CSS Transitions
